@@ -1,0 +1,39 @@
+body{
+    height: 90vh;
+    background-color: aqua;
+    justify-items: center;
+    align-content: center;
+    background-image: url(pexels-pixabay-355465.jpg);
+}
+.login-page{
+   
+    height: 300px;
+    width: 230px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgb(28, 28, 28);
+    backdrop-filter: blur(2px);
+
+
+}
+.label{
+    height: 30px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.login{
+    width: 80px;
+    background-color: rgb(63, 63, 214);
+    border: none;
+}
